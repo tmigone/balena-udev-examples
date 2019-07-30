@@ -1,0 +1,11 @@
+FROM balenalib/%%BALENA_MACHINE_NAME%%-alpine
+LABEL author "Tomás Migone"
+LABEL maintainer "tomasmigone@gmail.com"
+
+# Enable udev for detection of dynamically plugged devices
+ENV UDEV=on
+
+COPY . .
+RUN chmod +x ./start.sh
+
+CMD [ "./start.sh" ]

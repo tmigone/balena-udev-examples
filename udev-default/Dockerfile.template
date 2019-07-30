@@ -1,0 +1,8 @@
+FROM balenalib/%%BALENA_MACHINE_NAME%%-alpine
+LABEL author "Tomás Migone"
+LABEL maintainer "tomasmigone@gmail.com"
+
+COPY . .
+RUN chmod +x ./start.sh
+
+CMD [ "./start.sh" ]

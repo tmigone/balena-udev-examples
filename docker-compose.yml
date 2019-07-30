@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  udev-default:
+    build: ./udev-default
+
+  udev-enabled:
+    build: ./udev-enabled
+    privileged: true
+
+  udev-rule-hello-world:
+    build: ./udev-rule-hello-world
+    privileged: true
