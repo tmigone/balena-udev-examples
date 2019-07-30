@@ -1,11 +1,8 @@
-# Deployment instructions for balena
- 
-Deploy to balena: ```balena push <YOUR_DEVICE>```
-
-## Overview
+# balena-udev-examples
 
 This project contains example containers to showcase udev handling in balenaOS.
 For more information please refer to [this post]().
+Deploy to balena with ```balena push <YOUR_DEVICE>```
 
 | Container  | Description |
 | ------------- | ------------- |
