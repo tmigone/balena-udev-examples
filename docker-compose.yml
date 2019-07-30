@@ -11,3 +11,7 @@ services:
   udev-rule-hello-world:
     build: ./udev-rule-hello-world
     privileged: true
+
+  usb-copy:
+    build: ./usb-copy
+    privileged: true
