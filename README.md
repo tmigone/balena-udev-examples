@@ -1,7 +1,7 @@
 # balena-udev-examples
 
 This project contains example containers to showcase udev handling in balenaOS.
-For more information please refer to [this post]().
+For more information please refer to [this post](https://medium.com/@tomasmigone/hot-plugging-usb-devices-in-balenaos-5dca4b05ca7e).
 Deploy to balena with ```balena push <YOUR_DEVICE>```
 
 | Container  | Description |
